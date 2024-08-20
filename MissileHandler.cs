@@ -21,8 +21,7 @@ namespace projectIronDome
             public MissileHandler(WebSocketServer wss, ConcurrentQueue<Missile> missileQueue)
             {
                 this._wss = wss;
-                this._missileQueue = missileQueue;
-                
+                this._missileQueue = missileQueue;                
             }
 
         protected override void OnMessage(MessageEventArgs e)
